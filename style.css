@@ -1,19 +1,26 @@
-.topnav{
-    background-color: black;
-    overflow:hidden;
+/* Add a background color to the whole page */
+*{
+    background-color: #faefe0;
+    font-family: "Poppins",sans-serif;
 }
 
-.topnav a{
-    color: white;
-    float:right;
-    padding: 14px 16px;
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #14544e;
     text-align: center;
-    font-size: 17px;
+    padding: 18px 20px;
     text-decoration: none;
-}
+    font-size: 17px;
+  }
 
-.topnav a:hover{
-    background-color: yellow;
-    color: black;
-}
+  .topnav a:hover{
+    background-color:#c49963;
+    color:#282a29;
+  }
 
+  li{
+    list-style-type: none;
+    float: left;
+    padding: 18px 20px;
+  }
